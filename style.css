@@ -1,0 +1,51 @@
+body {
+  background-color: #21ffcb;
+}
+
+h1 {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+}
+.input {
+  width: 300px;
+  height: 35px;
+  margin-top: 15px;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  outline: 0;
+}
+.button {
+  width: 70px;
+  height: 35px;
+  border-radius: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  margin-bottom: 35px;
+  background-color: black;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: none;
+}
+
+.container-lista {
+  background-color: white;
+  height: 350px;
+  width: 550px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
